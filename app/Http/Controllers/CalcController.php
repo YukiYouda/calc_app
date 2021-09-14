@@ -18,7 +18,6 @@ class CalcController extends Controller
             $total = $num1 / $num2; 
         } 
 
-        return view('result', ['total' => $total
-        ]);
+        return view('result', ['total' => $total]);
     }
 }
